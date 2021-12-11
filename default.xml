@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+    <remote fetch="https://git.yoctoproject.org/git/" name="yocto"/>
+    <remote fetch="https://git.openembedded.org/"     name="oe"/>
+    <remote fetch="https://github.com/"               name="github"/>
+
+    <project remote="yocto"  revision="dunfell" name="poky"                     path="yocto"/>
+    <project remote="yocto"  revision="dunfell" name="meta-virtualization"      path="yocto/meta-virtualization"/>
+    <project remote="yocto"  revision="dunfell" name="meta-raspberrypi"         path="yocto/meta-raspberrypi"/>
+    <project remote="oe"     revision="dunfell" name="meta-openembedded"        path="yocto/meta-openembedded"/>
+    <project remote="github" revision="dunfell" name="TheAppgineer/meta-rem-os" path="yocto/meta-rem-os"/>
+</manifest>
