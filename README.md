@@ -6,7 +6,7 @@ sudo mv repo /usr/local/bin/
 
 mkdir rem-os
 cd rem-os
-repo init -u https://github.com/TheAppgineer/rem-os-manifest.git -b dunfell
+repo init -u https://github.com/TheAppgineer/rem-os-manifest.git -b honister
 repo sync
 
 TEMPLATECONF=meta-rem-os/conf/samples/ source oe-init-build-env

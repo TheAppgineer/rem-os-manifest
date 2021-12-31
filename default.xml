@@ -5,9 +5,9 @@
     <remote fetch="https://git.openembedded.org/"     name="oe"/>
     <remote fetch="https://github.com/"               name="github"/>
 
-    <project remote="yocto"  revision="dunfell" name="poky"                     path="yocto"/>
-    <project remote="yocto"  revision="dunfell" name="meta-virtualization"      path="yocto/meta-virtualization"/>
-    <project remote="yocto"  revision="dunfell" name="meta-raspberrypi"         path="yocto/meta-raspberrypi"/>
-    <project remote="oe"     revision="dunfell" name="meta-openembedded"        path="yocto/meta-openembedded"/>
-    <project remote="github" revision="dunfell" name="TheAppgineer/meta-rem-os" path="yocto/meta-rem-os"/>
+    <project remote="yocto"  revision="honister" name="poky"                     path="."/>
+    <project remote="yocto"  revision="honister" name="meta-virtualization"      path="meta-virtualization"/>
+    <project remote="yocto"  revision="honister" name="meta-raspberrypi"         path="meta-raspberrypi"/>
+    <project remote="oe"     revision="honister" name="meta-openembedded"        path="meta-openembedded"/>
+    <project remote="github" revision="honister" name="TheAppgineer/meta-rem-os" path="meta-rem-os"/>
 </manifest>
